@@ -42,9 +42,9 @@ def create_ticket(user_name, issue):
 def find_ticket(ticket_id):
     tickets = load_tickets()
     for ticket in tickets:
-        if(ticket['id'] == ticket_id):
+        if(ticket['id'] == ticket_id.upper()):
             return ticket
-        return None
+    return None
 
 # escalataion manager
 

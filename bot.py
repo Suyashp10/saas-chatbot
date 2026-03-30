@@ -53,7 +53,6 @@ PHRASE_INTENTS = {
 }
 
 def detect_intent(message):
-    """Detect intent using phrase + token-based matching."""
     msg = message.lower().strip()
     tokens = set(msg.split())
 
