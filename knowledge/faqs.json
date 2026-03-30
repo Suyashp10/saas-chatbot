@@ -1,0 +1,275 @@
+[
+  {
+    "id": "acct-001",
+    "category": "Account & Login",
+    "question": "How do I reset my password?",
+    "keywords": ["reset", "password", "forgot", "change password"],
+    "answer": "To reset your password, click 'Forgot Password' on the login page. Enter your registered email and check your inbox for a reset link. The link expires in 30 minutes."
+  },
+  {
+    "id": "acct-002",
+    "category": "Account & Login",
+    "question": "I didn't receive the verification email — what should I do?",
+    "keywords": ["verification", "verify", "email not received", "resend", "confirmation"],
+    "answer": "Check your spam or junk folder first. If it's not there, go to the login page and click 'Resend Verification Email'. If the issue persists, contact support."
+  },
+  {
+    "id": "acct-003",
+    "category": "Account & Login",
+    "question": "How do I change my email address?",
+    "keywords": ["change email", "update email", "new email"],
+    "answer": "Go to Settings > Account > Email Address. Enter your new email and confirm it. A verification link will be sent to the new address."
+  },
+  {
+    "id": "acct-004",
+    "category": "Account & Login",
+    "question": "Can I enable two-factor authentication (2FA)?",
+    "keywords": ["2fa", "two factor", "two-factor", "authentication", "security code"],
+    "answer": "Yes! Go to Settings > Security > Two-Factor Authentication and follow the setup steps using an authenticator app like Google Authenticator."
+  },
+  {
+    "id": "acct-005",
+    "category": "Account & Login",
+    "question": "Why is my account locked?",
+    "keywords": ["locked", "account locked", "blocked", "suspended", "can't login"],
+    "answer": "Accounts are locked after multiple failed login attempts. Wait 30 minutes and try again, or click 'Forgot Password' to reset. Contact support if the issue continues."
+  },
+  
+  {
+    "id": "bill-001",
+    "category": "Billing & Subscription",
+    "question": "What plans do you offer?",
+    "keywords": ["plans", "pricing", "packages", "subscription options", "tiers"],
+    "answer": "We offer three plans: Free (basic features, 1 user), Pro ($19/month, up to 10 users, full features), and Enterprise (custom pricing, unlimited users). Visit our pricing page for details."
+  },
+  {
+    "id": "bill-002",
+    "category": "Billing & Subscription",
+    "question": "How do I upgrade or downgrade my plan?",
+    "keywords": ["upgrade", "downgrade", "change plan", "switch plan"],
+    "answer": "Go to Settings > Billing > Change Plan. Select your desired plan and confirm. Upgrades take effect immediately; downgrades apply at the next billing cycle."
+  },
+  {
+    "id": "bill-003",
+    "category": "Billing & Subscription",
+    "question": "When will I be charged?",
+    "keywords": ["charged", "billing date", "payment date", "invoice", "when payment"],
+    "answer": "You are charged on the same date each month from when you subscribed. You can view your next billing date under Settings > Billing > Billing History."
+  },
+  {
+    "id": "bill-004",
+    "category": "Billing & Subscription",
+    "question": "Can I get a refund?",
+    "keywords": ["refund", "money back", "reimbursement", "cancel charge"],
+    "answer": "We offer a 7-day refund policy from the date of charge. Contact support@saas.com with your account email and reason. Refunds are processed within 5–7 business days."
+  },
+  {
+    "id": "bill-005",
+    "category": "Billing & Subscription",
+    "question": "How do I update my payment method?",
+    "keywords": ["payment method", "credit card", "update card", "billing info"],
+    "answer": "Go to Settings > Billing > Payment Method. Click 'Update' and enter your new card details. Changes apply to your next billing cycle."
+  },
+  {
+    "id": "bill-006",
+    "category": "Billing & Subscription",
+    "question": "Do you offer a free trial?",
+    "keywords": ["free trial", "trial", "try", "demo", "test"],
+    "answer": "Yes! We offer a 14-day free trial on our Pro plan — no credit card required. Sign up on our website to get started."
+  },
+  {
+    "id": "bill-007",
+    "category": "Billing & Subscription",
+    "question": "What happens when my subscription expires?",
+    "keywords": ["expires", "expiry", "subscription ends", "plan ends", "after expiry"],
+    "answer": "Your account switches to the Free plan. You retain your data but lose access to Pro features. Renew anytime from Settings > Billing to restore full access."
+  },
+  
+  {
+    "id": "prod-001",
+    "category": "Product Usage",
+    "question": "How do I create a new project/workspace?",
+    "keywords": ["create project", "new project", "new workspace", "create workspace"],
+    "answer": "Click the '+' button on your dashboard and select 'New Project'. Give it a name, choose visibility (private/public), and click 'Create'. Your workspace is ready!"
+  },
+  {
+    "id": "prod-002",
+    "category": "Product Usage",
+    "question": "How do I invite team members?",
+    "keywords": ["invite", "add member", "team", "collaborate", "add user"],
+    "answer": "Go to your Project > Settings > Members. Click 'Invite Member', enter their email address, assign a role (Admin/Editor/Viewer), and send the invite."
+  },
+  {
+    "id": "prod-003",
+    "category": "Product Usage",
+    "question": "Is there a limit on users or storage?",
+    "keywords": ["limit", "users limit", "storage limit", "max users", "how many users"],
+    "answer": "Free plan: 1 user, 1GB storage. Pro plan: up to 10 users, 50GB storage. Enterprise plan: unlimited users and storage. Upgrade anytime from Settings > Billing."
+  },
+  {
+    "id": "prod-004",
+    "category": "Product Usage",
+    "question": "How do I export my data?",
+    "keywords": ["export", "download data", "backup", "extract data"],
+    "answer": "Go to Settings > Data > Export. Choose your format (CSV, JSON, or PDF) and click 'Export'. A download link will be emailed to you within a few minutes."
+  },
+  {
+    "id": "prod-005",
+    "category": "Product Usage",
+    "question": "Can I integrate with other tools (Slack, Google Drive, etc.)?",
+    "keywords": ["integrate", "integration", "slack", "google drive", "zapier", "third party"],
+    "answer": "Yes! Go to Settings > Integrations to connect Slack, Google Drive, Zapier, and more. Each integration has a step-by-step setup guide available on our docs page."
+  },
+  {
+    "id": "prod-006",
+    "category": "Product Usage",
+    "question": "Where can I find tutorials or documentation?",
+    "keywords": ["tutorial", "documentation", "docs", "guide", "help", "learn"],
+    "answer": "Visit docs.saas.com for full documentation, video tutorials, and getting started guides. You can also access Help from within the app by clicking the '?' icon."
+  },
+  
+  {
+    "id": "tech-001",
+    "category": "Technical Issues",
+    "question": "Why is the app slow or not loading?",
+    "keywords": ["slow", "not loading", "loading", "lagging", "performance", "stuck"],
+    "answer": "Try clearing your browser cache and cookies, then reload. Check your internet connection. If the issue persists, try a different browser or check our status page at status.saas.com."
+  },
+  {
+    "id": "tech-002",
+    "category": "Technical Issues",
+    "question": "I'm getting an error — how do I fix it?",
+    "keywords": ["error", "bug", "issue", "not working", "broken", "crash", "fix"],
+    "answer": "Note the exact error message and when it occurred. Try refreshing the page or logging out and back in. If it continues, contact support with a screenshot of the error."
+  },
+  {
+    "id": "tech-003",
+    "category": "Technical Issues",
+    "question": "Is your service down right now?",
+    "keywords": ["down", "outage", "service down", "not available", "offline", "status"],
+    "answer": "Check our real-time status page at status.saas.com. You can also subscribe to incident updates there so you're notified immediately of any disruptions."
+  },
+  {
+    "id": "tech-004",
+    "category": "Technical Issues",
+    "question": "Which browsers are supported?",
+    "keywords": ["browser", "supported browser", "chrome", "firefox", "safari", "edge"],
+    "answer": "We support the latest versions of Chrome, Firefox, Safari, and Microsoft Edge. For the best experience, we recommend using Google Chrome. Internet Explorer is not supported."
+  },
+  {
+    "id": "tech-005",
+    "category": "Technical Issues",
+    "question": "Do you have a mobile app?",
+    "keywords": ["mobile", "app", "ios", "android", "phone", "tablet", "smartphone"],
+    "answer": "Yes! Our mobile app is available on iOS (App Store) and Android (Google Play). Search for 'SaaS App' and download it for free. Full feature parity with the web version."
+  },
+  
+  {
+    "id": "sec-001",
+    "category": "Security & Privacy",
+    "question": "How is my data stored and protected?",
+    "keywords": ["data stored", "protected", "secure", "encryption", "storage security"],
+    "answer": "Your data is encrypted at rest (AES-256) and in transit (TLS 1.2+). We use secure cloud infrastructure with daily backups. Access is strictly controlled and monitored 24/7."
+  },
+  {
+    "id": "sec-002",
+    "category": "Security & Privacy",
+    "question": "Are you compliant with GDPR/other regulations?",
+    "keywords": ["gdpr", "compliance", "regulation", "hipaa", "privacy law", "data protection"],
+    "answer": "Yes. We are fully GDPR compliant and follow SOC 2 Type II standards. We also support HIPAA requirements for eligible plans. View our full compliance report at saas.com/compliance."
+  },
+  {
+    "id": "sec-003",
+    "category": "Security & Privacy",
+    "question": "Can I delete my account permanently?",
+    "keywords": ["delete account", "remove account", "permanent delete", "close account"],
+    "answer": "Yes. Go to Settings > Account > Danger Zone > Delete Account. This action is irreversible and will erase all your data within 30 days. Export your data before proceeding."
+  },
+  {
+    "id": "sec-004",
+    "category": "Security & Privacy",
+    "question": "Who can access my data?",
+    "keywords": ["who can access", "data access", "privacy", "employees access", "third party access"],
+    "answer": "Only you and team members you explicitly invite can access your data. Our staff only access data when required for support and with your consent. We never sell your data to third parties."
+  },
+  
+  {
+    "id": "feat-001",
+    "category": "Features & Limits",
+    "question": "What features are included in each plan?",
+    "keywords": ["features", "plan features", "what's included", "pro features", "free features"],
+    "answer": "Free: basic dashboard, 1 user, 1GB storage. Pro: all Free features + integrations, priority support, 10 users, 50GB storage. Enterprise: all Pro features + custom integrations, SSO, dedicated support."
+  },
+  {
+    "id": "feat-002",
+    "category": "Features & Limits",
+    "question": "Do you offer custom enterprise solutions?",
+    "keywords": ["enterprise", "custom", "enterprise plan", "large team", "custom solution"],
+    "answer": "Yes! Our Enterprise plan is fully customizable — including SSO, dedicated infrastructure, SLA guarantees, and a dedicated account manager. Contact sales@saas.com to get a tailored quote."
+  },
+  {
+    "id": "feat-003",
+    "category": "Features & Limits",
+    "question": "Are there API access options?",
+    "keywords": ["api", "api access", "developer", "rest api", "api key", "integration api"],
+    "answer": "Yes. API access is available on Pro and Enterprise plans. Generate your API key from Settings > Developer > API Keys. Full API documentation is at docs.saas.com/api."
+  },
+  {
+    "id": "feat-004",
+    "category": "Features & Limits",
+    "question": "What are the usage limits (API, storage, etc.)?",
+    "keywords": ["usage limits", "api limit", "rate limit", "storage limit", "request limit"],
+    "answer": "Free: 1GB storage, no API access. Pro: 50GB storage, 10,000 API calls/month. Enterprise: unlimited storage, unlimited API calls. Overage alerts are sent at 80% usage."
+  },
+  
+  {
+    "id": "supp-001",
+    "category": "Support & Contact",
+    "question": "How can I contact support?",
+    "keywords": ["contact", "contact support", "reach out", "get help", "support email"],
+    "answer": "You can contact us via email at support@saas.com, through the in-app chat widget, or by submitting a ticket at saas.com/support. We typically respond within 24 hours."
+  },
+  {
+    "id": "supp-002",
+    "category": "Support & Contact",
+    "question": "What are your support hours?",
+    "keywords": ["support hours", "working hours", "available", "when support", "office hours"],
+    "answer": "Our support team is available Monday to Friday, 9AM – 6PM UTC. Enterprise plan customers enjoy 24/7 priority support. Check saas.com/support for holiday schedules."
+  },
+  {
+    "id": "supp-003",
+    "category": "Support & Contact",
+    "question": "Do you offer live chat or phone support?",
+    "keywords": ["live chat", "phone", "call", "chat support", "real time support"],
+    "answer": "Live chat is available for Pro and Enterprise users during support hours. Phone support is available exclusively for Enterprise customers. Free plan users can reach us via email."
+  },
+  {
+    "id": "supp-004",
+    "category": "Support & Contact",
+    "question": "Where can I report a bug or request a feature?",
+    "keywords": ["report bug", "bug report", "feature request", "feedback", "suggest feature"],
+    "answer": "Report bugs or request features via our feedback portal at saas.com/feedback. You can also upvote existing requests. Our product team reviews all submissions weekly."
+  },
+  
+  {
+    "id": "cancel-001",
+    "category": "Cancellation & Account Management",
+    "question": "How do I cancel my subscription?",
+    "keywords": ["cancel", "cancel subscription", "stop subscription", "unsubscribe", "end plan"],
+    "answer": "Go to Settings > Billing > Cancel Subscription. Follow the prompts to confirm cancellation. You'll retain access to Pro features until the end of your current billing period."
+  },
+  {
+    "id": "cancel-002",
+    "category": "Cancellation & Account Management",
+    "question": "Will I lose my data after cancellation?",
+    "keywords": ["lose data", "data after cancel", "data deleted", "data after cancellation"],
+    "answer": "No, your data is retained for 30 days after cancellation. You can export it anytime during that window from Settings > Data > Export. After 30 days it is permanently deleted."
+  },
+  {
+    "id": "cancel-003",
+    "category": "Cancellation & Account Management",
+    "question": "Can I pause my subscription?",
+    "keywords": ["pause", "pause subscription", "freeze", "temporary stop", "hold subscription"],
+    "answer": "Yes! You can pause your subscription for up to 3 months. Go to Settings > Billing > Pause Subscription. Your data and settings are preserved and billing resumes automatically when the pause ends."
+  }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SaaS Support Bot</title>
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+
+    <body>
+        <div class="chat-wrapper">
+            
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="avatar">🤖</div>
+                <div class="header-info">
+                    <h2>SaaS Support Bot</h2>
+                    <span class="status">● Online</span>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-body" id="chat-body">
+                <!-- Messages will be dynamically added here -->
+                <div class="message bot">
+                    <span>👋 Hello! I'm your SaaS Support Bot.<br>
+                        I can help you with FAQs, raise a ticket, track a ticket,
+                        or connect you with a human agent.<br><br>
+                        How can I help you today?</span>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-footer">
+               <input 
+                   type="text"
+                   id="user-input"
+                   placeholder="Type your message..."
+                   autocomplete="off"
+               />
+               <button id="send-btn">Send</button>
+            </div>
+
+        </div>
+
+        <script>
+            const SESSION_ID = "{{ session_id }}";
+        </script>
+        <script src="/static/chat.js"></script>
+
+    </body>
+</html>
